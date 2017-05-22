@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F82DD9901ED2800200949BBD /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = F82DD98F1ED2800200949BBD /* Sparkle.png */; };
 		F870066D1ECEC2110045044E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F870066C1ECEC2110045044E /* main.m */; };
 		F87006701ECEC2110045044E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F870066F1ECEC2110045044E /* AppDelegate.m */; };
 		F87006731ECEC2110045044E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F87006721ECEC2110045044E /* ViewController.m */; };
@@ -15,6 +16,11 @@
 		F870067B1ECEC2110045044E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87006791ECEC2110045044E /* LaunchScreen.storyboard */; };
 		F87006861ECEC2110045044E /* AnimationCaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F87006851ECEC2110045044E /* AnimationCaseTests.m */; };
 		F87006911ECEC2110045044E /* AnimationCaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F87006901ECEC2110045044E /* AnimationCaseUITests.m */; };
+		F87006A01ECEC77A0045044E /* RadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F870069F1ECEC77A0045044E /* RadarViewController.m */; };
+		F87006A31ECEC79D0045044E /* DingDingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F87006A21ECEC79D0045044E /* DingDingViewController.m */; };
+		F87006A61ECEC7B40045044E /* ThumbUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F87006A51ECEC7B40045044E /* ThumbUpViewController.m */; };
+		F87006A91ECEC7D50045044E /* JellyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F87006A81ECEC7D50045044E /* JellyViewController.m */; };
+		F87006AC1ECECC0A0045044E /* RadarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F87006AB1ECECC0A0045044E /* RadarLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F82DD98F1ED2800200949BBD /* Sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sparkle.png; sourceTree = "<group>"; };
 		F87006681ECEC2110045044E /* AnimationCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F870066C1ECEC2110045044E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F870066E1ECEC2110045044E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,16 @@
 		F870068C1ECEC2110045044E /* AnimationCaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationCaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87006901ECEC2110045044E /* AnimationCaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationCaseUITests.m; sourceTree = "<group>"; };
 		F87006921ECEC2110045044E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F870069E1ECEC77A0045044E /* RadarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarViewController.h; sourceTree = "<group>"; };
+		F870069F1ECEC77A0045044E /* RadarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarViewController.m; sourceTree = "<group>"; };
+		F87006A11ECEC79D0045044E /* DingDingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DingDingViewController.h; sourceTree = "<group>"; };
+		F87006A21ECEC79D0045044E /* DingDingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DingDingViewController.m; sourceTree = "<group>"; };
+		F87006A41ECEC7B40045044E /* ThumbUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbUpViewController.h; sourceTree = "<group>"; };
+		F87006A51ECEC7B40045044E /* ThumbUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbUpViewController.m; sourceTree = "<group>"; };
+		F87006A71ECEC7D50045044E /* JellyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JellyViewController.h; sourceTree = "<group>"; };
+		F87006A81ECEC7D50045044E /* JellyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JellyViewController.m; sourceTree = "<group>"; };
+		F87006AA1ECECC0A0045044E /* RadarLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarLayer.h; sourceTree = "<group>"; };
+		F87006AB1ECECC0A0045044E /* RadarLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +122,17 @@
 				F870066F1ECEC2110045044E /* AppDelegate.m */,
 				F87006711ECEC2110045044E /* ViewController.h */,
 				F87006721ECEC2110045044E /* ViewController.m */,
+				F870069E1ECEC77A0045044E /* RadarViewController.h */,
+				F870069F1ECEC77A0045044E /* RadarViewController.m */,
+				F87006AA1ECECC0A0045044E /* RadarLayer.h */,
+				F87006AB1ECECC0A0045044E /* RadarLayer.m */,
+				F87006A11ECEC79D0045044E /* DingDingViewController.h */,
+				F87006A21ECEC79D0045044E /* DingDingViewController.m */,
+				F87006A41ECEC7B40045044E /* ThumbUpViewController.h */,
+				F87006A51ECEC7B40045044E /* ThumbUpViewController.m */,
+				F87006A71ECEC7D50045044E /* JellyViewController.h */,
+				F87006A81ECEC7D50045044E /* JellyViewController.m */,
+				F82DD98F1ED2800200949BBD /* Sparkle.png */,
 				F87006741ECEC2110045044E /* Main.storyboard */,
 				F87006771ECEC2110045044E /* Assets.xcassets */,
 				F87006791ECEC2110045044E /* LaunchScreen.storyboard */,
@@ -246,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82DD9901ED2800200949BBD /* Sparkle.png in Resources */,
 				F870067B1ECEC2110045044E /* LaunchScreen.storyboard in Resources */,
 				F87006781ECEC2110045044E /* Assets.xcassets in Resources */,
 				F87006761ECEC2110045044E /* Main.storyboard in Resources */,
@@ -274,7 +303,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F87006731ECEC2110045044E /* ViewController.m in Sources */,
+				F87006A91ECEC7D50045044E /* JellyViewController.m in Sources */,
+				F87006A01ECEC77A0045044E /* RadarViewController.m in Sources */,
 				F87006701ECEC2110045044E /* AppDelegate.m in Sources */,
+				F87006A31ECEC79D0045044E /* DingDingViewController.m in Sources */,
+				F87006A61ECEC7B40045044E /* ThumbUpViewController.m in Sources */,
+				F87006AC1ECECC0A0045044E /* RadarLayer.m in Sources */,
 				F870066D1ECEC2110045044E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +539,7 @@
 				F87006971ECEC2110045044E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F87006981ECEC2110045044E /* Build configuration list for PBXNativeTarget "AnimationCaseTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +548,7 @@
 				F870069A1ECEC2110045044E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F870069B1ECEC2110045044E /* Build configuration list for PBXNativeTarget "AnimationCaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +557,7 @@
 				F870069D1ECEC2110045044E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
